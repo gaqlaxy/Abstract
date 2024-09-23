@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: #000000;
+  color: #fff;
+  height: 100px;
+  /* max-width: 1200px; */
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menu {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+.submit{
+    background: rgba(25, 26, 27, 1);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1.4rem;
+}
+.signin{
+    background: #4C5FD5;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1.4rem;
+
+}
+.signin:hover{
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.help{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.nav-heading{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* HERO SECTION  */
+.hero{
+    position: relative;
+    background: #DADBF1;
+    
+}
+.container{
+    max-width: 120rem;
+}
+.hero-text{
+    text-align: center;
+    padding: 5rem;
+    
+}
+.primary-heading{
+    font-size: 4.4rem;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+.inputsearch{
+    width: 50%;
+    height: 60px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    font-size: 1.2rem;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Search icon  */
+
+.searchicon{
+    position: absolute;
+    left: 70%;
+    bottom: 32%;
+    color: #000;
+    width: 28px;
+}
+.searchicon:hover{
+    color: #4C5FD5;
+}
+
+/* Main Content  */
+
+.main-content{
+    margin: 10rem 10rem;
+}
+.main-items{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.main-item-img{
+    width: 60px;
+}
+.main-cont{
+    display: flex;
+}
+/* .main-item-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
+ .main-item-heading{
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    margin-bottom: 1rem;
+ }
+ .main-item-content{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+ }
